@@ -1,0 +1,27 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# AI Models & Large Data
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+*.h5
+data/
+datasets/
+
+# Rust & Node build artifacts
+target/
+node_modules/
+
+# OS & Editor
+.DS_Store
+.vscode/
